@@ -4,7 +4,7 @@
   <parent>
     <artifactId>chucktcplugin</artifactId>
     <groupId>chucktcplugin</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.5</version>
   </parent>
   <artifactId>chucktcplugin-server</artifactId>
   <packaging>jar</packaging>
