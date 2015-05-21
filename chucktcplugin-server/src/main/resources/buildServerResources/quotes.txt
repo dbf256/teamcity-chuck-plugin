@@ -1,0 +1,43 @@
+when Chuck Norris throws exceptions, it’s across the room.
+all arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.
+Chuck Norris doesn’t have disk latency because the hard drive knows to hurry the hell up.
+Chuck Norris writes code that optimizes itself.
+Chuck Norris can’t test for equality because he has no equal.
+Chuck Norris doesn’t need garbage collection because he doesn’t call .Dispose(), he calls .DropKick().
+Chuck Norris’s first program was kill -9.
+Chuck Norris burst the dot com bubble.
+all browsers support the hex definitions #chuck and #norris for the colors black and blue.
+MySpace actually isn’t your space, it’s Chuck’s (he just lets you use it).
+Chuck Norris can write infinite recursion functions…and have them return.
+Chuck Norris can solve the Towers of Hanoi in one move.
+the only pattern Chuck Norris knows is God Object.
+Chuck Norris finished World of Warcraft.
+project managers never ask Chuck Norris for estimations…ever.
+Chuck Norris doesn’t use web standards as the web will conform to him.
+“It works on my machine” always holds true for Chuck Norris.
+Chuck Norris doesn’t do Burn Down charts, he does Smack Down charts.
+Chuck Norris can delete the Recycling Bin.
+Chuck Norris’s beard can type 140 wpm.
+Chuck Norris can unit test entire applications with a single assert.
+Chuck Norris doesn’t bug hunt as that signifies a probability of failure, he goes bug killing.
+Chuck Norris’s keyboard doesn’t have a Ctrl key because nothing controls Chuck Norris.
+when Chuck Norris is web surfing websites get the message “Warning: Internet Explorer has deemed this user to be malicious or dangerous. Proceed?”.
+Chuck Norris can overflow your stack just by looking at it.
+to Chuck Norris, everything contains a vulnerability.
+Chuck Norris doesn’t need sudo, he just types “Chuck Norris” before his commands.
+Chuck Norris doesn’t use strongly-typed languages. He uses strong languages.
+the class object inherits from Chuck Norris.
+for Chuck Norris, NP-Hard = O(1).
+Chuck Norris solved the Travelling Salesman problem in O(1) time. Here’s the pseudo-code: Break salesman into N pieces. Kick each piece to a different city.
+Chuck Norris compresses his files by doing a flying round house kick to the hard drive.
+Chuck Norris once one a game of connect four in 3 moves.
+no one has ever pair-programmed with Chuck Norris and lived to tell about it.
+Chuck Norris doesn’t need Google. Google needs Chuck Norris.
+Chuck Norris can order programs run faster.
+Chuck Norris does not sort, he orders.
+Chuck Norris does infinit loops in 4 seconds.
+Chuck Norris doesn’t need garbage collection, his objects knows when they are not wanted.
+Chuck Norris can brute force anything in constant time.
+when Chuck Norris dereferences NULL pointers, he always gets what he wants.
+Chuck Norris does pair programming on his own.
+Chuck Norris never get locking wrong. His programs are too afraid to deadlock.
