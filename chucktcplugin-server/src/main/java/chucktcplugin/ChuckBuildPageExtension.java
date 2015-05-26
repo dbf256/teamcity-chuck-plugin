@@ -18,14 +18,14 @@ import java.util.Map;
 import java.util.Random;
 
 
-public class ChuckPageExtension extends SimplePageExtension {
+public class ChuckBuildPageExtension extends SimplePageExtension {
 
     private SBuildServer buildServer;
     private List<String> quotes;
     private PluginDescriptor pluginDescriptor;
 
-    public ChuckPageExtension(PagePlaces pagePlaces, PluginDescriptor pluginDescriptor, SBuildServer buildServer) {
-        super(pagePlaces, PlaceId.BUILD_RESULTS_FRAGMENT, "chucktcplugin", pluginDescriptor.getPluginResourcesPath("Chuck.jsp"));
+    public ChuckBuildPageExtension(PagePlaces pagePlaces, PluginDescriptor pluginDescriptor, SBuildServer buildServer) {
+        super(pagePlaces, PlaceId.BUILD_RESULTS_FRAGMENT, "chucktcpluginBuild", pluginDescriptor.getPluginResourcesPath("Chuck.jsp"));
         register();
         this.buildServer = buildServer;
         this.pluginDescriptor = pluginDescriptor;
@@ -46,12 +46,19 @@ public class ChuckPageExtension extends SimplePageExtension {
 
     @Override
     public void fillModel(@NotNull Map<String, Object> model, @NotNull HttpServletRequest request) {
+
         SBuild build = getBuild(request);
         model.put("buildId", build.getBuildNumber());
         model.put("chuckHappy", build.getBuildStatus().isSuccessful());
-        model.put("quote", quotes.get((new Random()).nextInt(quotes.size())));
         model.put("sadImage", pluginDescriptor.getPluginResourcesPath("_chuck_sad.jpg"));
         model.put("happyImage", pluginDescriptor.getPluginResourcesPath("_chuck_happy.jpg"));
+        String quote = quotes.get((new Random()).nextInt(quotes.size()));
+
+        if (build.getBuildStatus().isSuccessful()) {
+            model.put("message", "Chuck Norris approves build #" + build.getBuildId() + "and remember that " + quote);
+        } else {
+            model.put("message", "Chuck Norris disapproves build #" + build.getBuildId() + "and remember that " + quote);
+        }
     }
 
     private SBuild getBuild(HttpServletRequest request) {
