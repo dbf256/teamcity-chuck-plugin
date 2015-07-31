@@ -55,9 +55,9 @@ public class ChuckBuildPageExtension extends SimplePageExtension {
         String quote = quotes.get((new Random()).nextInt(quotes.size()));
 
         if (build.getBuildStatus().isSuccessful()) {
-            model.put("message", "Chuck Norris approves build #" + build.getBuildId() + "and remember that " + quote);
+            model.put("message", "Chuck Norris approves build #" + build.getBuildId() + " and remember that " + quote);
         } else {
-            model.put("message", "Chuck Norris disapproves build #" + build.getBuildId() + "and remember that " + quote);
+            model.put("message", "Chuck Norris disapproves build #" + build.getBuildId() + " and remember that " + quote);
         }
     }
 

@@ -63,7 +63,7 @@ public class ChuckProjectPageExtension extends SimplePageExtension {
         String quote = quotes.get((new Random()).nextInt(quotes.size())) ;
 
         if (fails.isEmpty()) {
-            model.put("message", "Chuck Norris approves all your builds for " + project.getFullName() + " and remember that " + quote);
+            model.put("message", "Chuck Norris approves all your builds for " + project.getName() + " and remember that " + quote);
         } else {
             model.put("message", "Chuck Norris disapproves builds for " + Joiner.on(", ").join(fails) + " and remember that " + quote);
         }
