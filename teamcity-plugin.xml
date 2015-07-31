@@ -3,7 +3,7 @@
   <info>
     <name>ChuckTeamcityPlugin</name>
     <display-name>Chuck Norris Teamcity Plugin</display-name>
-    <version>0.5.1</version>
+    <version>0.5.2</version>
     <description>Chuck Norris will check your builds and approves or disapproves them</description>
     <download-url>http://github.com/dbf256/teamcity-chuck-plugin</download-url>
     <email>dbf256@gmail.com</email>
