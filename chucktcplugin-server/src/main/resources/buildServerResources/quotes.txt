@@ -30,14 +30,32 @@ the class object inherits from Chuck Norris.
 for Chuck Norris, NP-Hard = O(1).
 Chuck Norris solved the Travelling Salesman problem in O(1) time. Here’s the pseudo-code: Break salesman into N pieces. Kick each piece to a different city.
 Chuck Norris compresses his files by doing a flying round house kick to the hard drive.
-Chuck Norris once one a game of connect four in 3 moves.
+Chuck Norris once won a game of connect four in 3 moves.
 no one has ever pair-programmed with Chuck Norris and lived to tell about it.
 Chuck Norris doesn’t need Google. Google needs Chuck Norris.
 Chuck Norris can order programs run faster.
 Chuck Norris does not sort, he orders.
-Chuck Norris does infinit loops in 4 seconds.
+Chuck Norris does infinite loops in 4 seconds.
 Chuck Norris doesn’t need garbage collection, his objects knows when they are not wanted.
 Chuck Norris can brute force anything in constant time.
 when Chuck Norris dereferences NULL pointers, he always gets what he wants.
 Chuck Norris does pair programming on his own.
 Chuck Norris never get locking wrong. His programs are too afraid to deadlock.
+Chuck Norris doesn’t need a debugger, he just stares down the bug until the code confesses.
+Chuck Norris can access private methods.
+no statement can catch the ChuckNorrisException.
+Chuck Norris can write multi-threaded applications with a single thread.
+there is no Esc key on Chuck Norris’ keyboard, because no one escapes Chuck Norris.
+Chuck Norris can binary search unsorted data.
+Chuck Norris doesn’t needs try-catch, exceptions are too afraid to raise.
+Chuck Norris went out of an infinite loop.
+Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris.
+Chuck Norris hosting is 101% uptime guaranteed.
+Chuck Norris compresses his files by doing a flying round house kick to the hard drive.
+Chick Norris solved the halting problem.
+Chuck Norris can retrieve anything from /dev/null.
+Chuck Norris does not sort, he orders.
+Product Owners never argue with Chuck Norris after he demonstrates the DropKick feature.
+Chuck Norris can write to ROM.
+Wi-Fi searches Chuck Norris.
+Chuck Norris can perform a DoS attack by looking at a system.
