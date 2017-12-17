@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>chucktcplugin</groupId>
   <artifactId>chucktcplugin</artifactId>
-  <version>0.5.2</version>
+  <version>0.5.3</version>
   <packaging>pom</packaging>
   <properties>
       <teamcity-version>9.0.1</teamcity-version>

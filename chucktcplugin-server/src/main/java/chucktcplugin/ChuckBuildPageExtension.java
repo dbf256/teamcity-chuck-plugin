@@ -48,16 +48,15 @@ public class ChuckBuildPageExtension extends SimplePageExtension {
     public void fillModel(@NotNull Map<String, Object> model, @NotNull HttpServletRequest request) {
 
         SBuild build = getBuild(request);
-        model.put("buildId", build.getBuildNumber());
         model.put("chuckHappy", build.getBuildStatus().isSuccessful());
         model.put("sadImage", pluginDescriptor.getPluginResourcesPath("_chuck_sad.jpg"));
         model.put("happyImage", pluginDescriptor.getPluginResourcesPath("_chuck_happy.jpg"));
         String quote = quotes.get((new Random()).nextInt(quotes.size()));
 
         if (build.getBuildStatus().isSuccessful()) {
-            model.put("message", "Chuck Norris approves build #" + build.getBuildId() + " and remember that " + quote);
+            model.put("message", "Chuck Norris approves build #" + build.getBuildNumber() + " and remember that " + quote);
         } else {
-            model.put("message", "Chuck Norris disapproves build #" + build.getBuildId() + " and remember that " + quote);
+            model.put("message", "Chuck Norris disapproves build #" + build.getBuildNumber() + " and remember that " + quote);
         }
     }
 
