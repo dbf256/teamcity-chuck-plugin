@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
   <info>
-    <name>ChuckNorris</name>
+    <name>Chuck-Norris</name>
     <display-name>Chuck Norris</display-name>
     <version>0.5.4</version>
     <description>Chuck Norris will check your builds and approves or disapproves them</description>
@@ -9,6 +9,7 @@
     <email>dbf256@gmail.com</email>
     <vendor>
       <name>Alexey Moskvin</name>
+      <url>http://github.com/dbf256</url>
     </vendor>
   </info>
   <deployment use-separate-classloader="true"/>
