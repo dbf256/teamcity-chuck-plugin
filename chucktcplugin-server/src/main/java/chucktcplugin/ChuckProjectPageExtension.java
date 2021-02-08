@@ -1,7 +1,5 @@
 package chucktcplugin;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.Sets;
 import jetbrains.buildServer.log.Loggers;
 import jetbrains.buildServer.serverSide.*;
 import jetbrains.buildServer.web.openapi.PagePlaces;
@@ -13,10 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 public class ChuckProjectPageExtension extends SimplePageExtension {
     private SBuildServer buildServer;
@@ -44,7 +39,7 @@ public class ChuckProjectPageExtension extends SimplePageExtension {
 
     @Override
     public void fillModel(@NotNull Map<String, Object> model, @NotNull HttpServletRequest request) {
-        Set<String> fails = Sets.newHashSet();
+        Set<String> fails = new HashSet<>();
         String projectId = request.getParameter("projectId");
         SProject project = buildServer.getProjectManager().findProjectByExternalId(projectId);
         for (SBuildType buildType : project.getBuildTypes()) {
@@ -65,7 +60,7 @@ public class ChuckProjectPageExtension extends SimplePageExtension {
         if (fails.isEmpty()) {
             model.put("message", "Chuck Norris approves all your builds for " + project.getName() + " and remember that " + quote);
         } else {
-            model.put("message", "Chuck Norris disapproves builds for " + Joiner.on(", ").join(fails) + " and remember that " + quote);
+            model.put("message", "Chuck Norris disapproves builds for " + String.join(", ", fails) + " and remember that " + quote);
         }
     }
 }

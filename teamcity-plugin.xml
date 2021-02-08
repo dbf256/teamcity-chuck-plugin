@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:shemas-jetbrains-com:teamcity-plugin-v1-xml">
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
   <info>
-    <name>ChuckTeamcityPlugin</name>
-    <display-name>Chuck Norris Teamcity Plugin</display-name>
-    <version>0.5.3</version>
+    <name>ChuckNorris</name>
+    <display-name>Chuck Norris</display-name>
+    <version>0.5.4</version>
     <description>Chuck Norris will check your builds and approves or disapproves them</description>
     <download-url>http://github.com/dbf256/teamcity-chuck-plugin</download-url>
     <email>dbf256@gmail.com</email>
@@ -11,5 +11,5 @@
       <name>Alexey Moskvin</name>
     </vendor>
   </info>
-  <deployment use-separate-classloader="true" />
+  <deployment use-separate-classloader="true"/>
 </teamcity-plugin>

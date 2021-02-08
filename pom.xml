@@ -3,26 +3,42 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>chucktcplugin</groupId>
   <artifactId>chucktcplugin</artifactId>
-  <version>0.5.3</version>
+  <version>0.5.4</version>
   <packaging>pom</packaging>
   <properties>
-      <teamcity-version>9.0.1</teamcity-version>
+      <teamcity-version>2020.1</teamcity-version>
   </properties>
   <repositories>
     <repository>
         <id>JetBrains</id>
-        <url>http://repository.jetbrains.com/all</url>
+        <url>https://download.jetbrains.com/teamcity-repository</url>
     </repository>
   </repositories>
+  <pluginRepositories>
+      <pluginRepository>
+          <id>JetBrains</id>
+          <url>https://download.jetbrains.com/teamcity-repository</url>
+      </pluginRepository>
+  </pluginRepositories>
   <build>
+      <plugins>
+          <plugin>
+              <groupId>org.jetbrains.teamcity</groupId>
+              <artifactId>teamcity-sdk-maven-plugin</artifactId>
+              <version>0.4.1</version>
+              <configuration>
+                  <!-- <teamcityDir>/path/to/tc/distro</teamcityDir> -->
+              </configuration>
+          </plugin>
+      </plugins>
       <pluginManagement>
           <plugins>
               <plugin>
-                  <groupId>org.apache.maven.plugins</groupId>
-                  <artifactId>maven-compiler-plugin</artifactId>
+                  <groupId>org.jetbrains.teamcity</groupId>
+                  <artifactId>teamcity-sdk-maven-plugin</artifactId>
+                  <version>0.4.1</version>
                   <configuration>
-                      <source>1.5</source>
-                      <target>1.5</target>
+                      <!-- <teamcityDir>/path/to/tc/distro</teamcityDir> -->
                   </configuration>
               </plugin>
           </plugins>
